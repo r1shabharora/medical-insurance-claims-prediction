@@ -103,7 +103,7 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+# .venv  # Commented out to allow virtual environment
 env/
 venv/
 ENV/
@@ -146,7 +146,7 @@ dmypy.json
 *.hdf5
 
 # Model files (uncomment if you don't want to track trained models)
-models/
+# models/  # Commented out to allow trained models
 checkpoints/
 saved_models/
 
@@ -193,6 +193,20 @@ results/*.jpg
 results/*.jpeg
 results/*.gif
 results/*.svg
+
+# Exclude very large files from venv (keep structure)
+.venv/lib/python*/site-packages/*/tests/
+.venv/lib/python*/site-packages/*/test/
+.venv/lib/python*/site-packages/*/examples/
+.venv/lib/python*/site-packages/*/docs/
+
+# Exclude large binary files that exceed GitHub's 100MB limit
+.venv/lib/python*/site-packages/torch/lib/*.dylib
+.venv/lib/python*/site-packages/torch/lib/*.so
+.venv/lib/python*/site-packages/torch/lib/*.dll
+.venv/lib/python*/site-packages/*/lib/*.dylib
+.venv/lib/python*/site-packages/*/lib/*.so
+.venv/lib/python*/site-packages/*/lib/*.dll
 
 # Sensitive information
 .env
