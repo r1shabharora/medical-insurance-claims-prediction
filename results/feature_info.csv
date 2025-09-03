@@ -1,0 +1,2 @@
+feature_columns,target_column,n_features,n_train_samples,n_val_samples,n_test_samples
+"['age', 'sex', 'bmi', 'children', 'smoker', 'region']",charges,6,600,200,200

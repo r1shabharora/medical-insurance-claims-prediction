@@ -1,0 +1,9 @@
+category,metric,value,insight
+Overall Statistics,Total Medical Charges,"$14,435,163.40",Total liability across all policyholders
+Overall Statistics,Average Medical Charges,"$14,435.16",Expected cost per policyholder
+Overall Statistics,Median Medical Charges,"$12,869.04",Typical cost (50th percentile)
+Risk Factors,Smoker Cost Multiplier,1.16x,Smokers cost 1.2x more than non-smokers
+Risk Factors,Smoker Population,19.8%,Only 19.8% are smokers but they drive significant costs
+Age Analysis,Highest Cost Age Group,36-45,"Age group 36-45 has highest average costs ($14,986)"
+Regional Analysis,Regional Cost Variance,"$1,225","Costs vary by $1,225 between southeast and northeast"
+Health Factors,BMI Impact on Costs,Normal,"Normal individuals have highest costs ($15,316)"

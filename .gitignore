@@ -139,20 +139,19 @@ dmypy.json
 *.tflite
 
 # Data files (uncomment if you don't want to track data)
-data/
-*.csv
+# data/  # Commented out to allow sample data
 *.json
 *.parquet
 *.h5
 *.hdf5
 
 # Model files (uncomment if you don't want to track trained models)
-# models/
-# checkpoints/
-# saved_models/
+models/
+checkpoints/
+saved_models/
 
 # Results and outputs (uncomment if you don't want to track results)
-results/
+# results/  # Commented out to allow key results
 outputs/
 logs/
 
@@ -187,6 +186,13 @@ Thumbs.db
 *.tar.gz
 *.rar
 *.7z
+
+# Large image files (keep small ones)
+results/*.png
+results/*.jpg
+results/*.jpeg
+results/*.gif
+results/*.svg
 
 # Sensitive information
 .env
