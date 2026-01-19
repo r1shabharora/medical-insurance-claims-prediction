@@ -303,28 +303,6 @@ comparator.compare_models()
 - **Geographic Data**: Location-based risk factors
 - **Industry Benchmarks**: Comparative analysis
 
-## 🤝 Contributing
-
-### **How to Contribute**
-1. **Fork** the repository
-2. **Create** a feature branch
-3. **Make** your changes
-4. **Test** thoroughly
-5. **Submit** a pull request
-
-### **Areas for Contribution**
-- **Model Improvements**: Better architectures, hyperparameters
-- **Feature Engineering**: New features, transformations
-- **Documentation**: Tutorials, examples, explanations
-- **Testing**: Unit tests, integration tests
-- **Performance**: Optimization, benchmarking
-
-### **Code Standards**
-- **Python Style**: PEP 8 compliance
-- **Documentation**: Clear docstrings and comments
-- **Error Handling**: Robust exception management
-- **Testing**: Comprehensive test coverage
-- **Performance**: Efficient algorithms and data structures
 
 ## 📄 License
 
