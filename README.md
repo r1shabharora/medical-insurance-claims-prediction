@@ -328,18 +328,6 @@ comparator.compare_models()
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** you can see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## 🎉 **Get Started Today!**
-
-Ready to dive into deep learning regression? Start with the quick start script:
-
-```bash
-python quick_start.py
-```
-
-**Questions? Issues?** Check the notebooks or create an issue in the repository.
-
-**Happy Learning! 🚀**
